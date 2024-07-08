@@ -1,0 +1,73 @@
+/* MortgageCalculator.css */
+body{ 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	background: rgba(240, 245, 240, 0.66); 
+	font-family: monospace; 
+} 
+
+.container{ 
+	width: 80vh; 
+	min-height: 50vh;
+	margin: auto; 
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+	background-color: #fff; 
+	padding: 10px 20px; 
+	border: 1px solid #ccc; 
+	border-radius: 15px; 
+	box-shadow: 10px 10px 5px 0px rgba(109, 95, 95, 0.5); 
+} 
+.main-cont{
+	background-color: rgb(36, 127, 201);
+	border-radius: 20px;
+	margin: 20px 20px;
+	padding: 20px auto;
+	margin-bottom: 40px;
+}
+.label label{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 0 auto;
+text-align: left;
+padding: 25px;
+width: 90%;
+height: auto;
+font-size: 25px;
+color: white;
+font-weight: 700;
+}
+input{
+	border: 2px solid rgb(245, 99, 41);
+	border-radius: 5px;
+	margin-right: 15px;
+	padding: 8px 10px;
+	font-size: medium;
+	font-weight: 600;
+}
+button{
+	padding: 10px 20px;
+	border: 2px solid rgb(231, 7, 183);
+	border-radius: 5px;
+	font-size: large;
+	font-weight: 800;
+	margin-bottom: 20px;
+}
+button:hover{
+	border: 2px solid crimson;
+	box-shadow: 0 12px 16px 0 rgba(247, 68, 68, 0.664),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.res{
+	margin-bottom: 25px;
+	padding-bottom:25px ;
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
